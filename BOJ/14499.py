@@ -13,7 +13,6 @@ for _ in range(n):
 
 # 주사위
 dice = [0]*7
-current_dice_up = 1
 
 def turn_dice(command, dice):
     a,b,c,d,e,f = dice[1], dice[2], dice[3], dice[4], dice[5], dice[6]
